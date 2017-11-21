@@ -77,7 +77,7 @@ class SubHorizontalFragment : Fragment()  {
             val tempFragment = fragmentManager.findFragmentByTag("tag")
 //            val inAnim = if (isReverse) android.R.anim.slide_in_left else android.R.anim.slide_out_right
 //            val outAnim = if (isReverse) android.R.anim.slide_out_right else android.R.anim.slide_out_right
-            transaction.setCustomAnimations(android.R.anim.fade_in,android.R.anim.fade_out)
+            transaction.setCustomAnimations(android.R.anim.slide_in_left,android.R.anim.slide_out_right)
             if(tempFragment == null) transaction.add(R.id.frameLayout,subFragment,"tag") else transaction.replace(R.id.frameLayout,subFragment,"tag")
 //            transaction.addToBackStack(null)
             transaction.commit()
