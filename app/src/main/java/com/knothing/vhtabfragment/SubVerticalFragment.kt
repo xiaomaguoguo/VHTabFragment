@@ -68,7 +68,7 @@ class SubVerticalFragment : Fragment() {
             val fragmentManager = childFragmentManager;
             val transaction = fragmentManager.beginTransaction()
             val tempFragment = fragmentManager.findFragmentByTag("tag")
-            transaction.setCustomAnimations(android.R.anim.fade_in,android.R.anim.fade_out)
+            transaction.setCustomAnimations(android.R.anim.slide_in_left,android.R.anim.slide_out_right)
 //            transaction.setCustomAnimations(R.anim.slide_in_top,R.anim.slide_out_bottom)
             if(tempFragment == null) transaction.add(R.id.frameLayout,subFragment,"tag") else transaction.replace(R.id.frameLayout,subFragment,"tag")
 //            transaction.addToBackStack(null)
