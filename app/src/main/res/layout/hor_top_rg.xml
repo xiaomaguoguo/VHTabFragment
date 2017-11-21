@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="none"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--<include layout="@layout/hor_top_rb" />-->
+
+        <!--<include layout="@layout/hor_top_rb" />-->
+
+        <!--<include layout="@layout/hor_top_rb" />-->
+
+        <!--<include layout="@layout/hor_top_rb" />-->
+
+        <!--<include layout="@layout/hor_top_rb" />-->
+
+        <!--<include layout="@layout/hor_top_rb" />-->
+
+        <!--<include layout="@layout/hor_top_rb" />-->
+
+        <!--<include layout="@layout/hor_top_rb" />-->
+
+        <!--<include layout="@layout/hor_top_rb" />-->
+
+        <!--<include layout="@layout/hor_top_rb" />-->
+    </RadioGroup>
+</HorizontalScrollView>
